@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Japan Embassy Interview Question</string>
+    <string name="rate_dialog_title">Custom title</string>
+    <string name="rate_dialog_message">Custom message</string>
+    <string name="rate_dialog_ok">Custom rate now</string>
+    <string name="rate_dialog_cancel">Custom remind later</string>
+    <string name="rate_dialog_no">Custom no</string>
+    <string name="preparation_step">রুম - এ ঢুকার পূর্বে দরজা দুইবার নক করে, দরজা টান দিবেন ।দরজাটা একটু খানি ফাঁক হলে, সাথে সাথে (はいってもいですか) কথা বলে ভিতরে ঢুকবেন। দরজাটা আস্তে করে বন্ধ করবেন ,ভিতরে প্রবেশ করে (しつれいします) বলে (こんにちは) বলে সাক্ষাৎকার এর জন্য প্রস্তুত হবেন। কোন প্রশ্ন না বুঝলে (すみませんもういちどおねがいします) বলবেন । আর প্রশ্ন না পারলে (せんせいこのしつもんがわかりません) বলবেন। কানজি পড়ার সময় ,কোন কানজি না পারলে কানজি টি আঙ্গুল দিয়ে দেখিয়ে (あのせんせいこのかんじがすこしわかりません)বলবেন।  জাপানি (ありがとうございました) বলে সাক্ষাৎকার শেষ করবেন।  সাক্ষাৎকার শেষ হওয়ার সাথে সাথেই (どうもありがとうございました) বলে রুম থেকে বের হবেন ।</string>
+</resources>
