@@ -13,61 +13,81 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OthersQuestionFour"
-            android:parentActivityName=".OthersQuestionThree" ></activity>
+        <activity
+            android:name=".OthersQuestionFour"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".OthersQuestionThree"/>
         <activity
             android:name=".OthersQuestionThree"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".OthersQuestionTwo" />
         <activity
             android:name=".OthersQuestionTwo"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".OthersQuestionOne" />
         <activity
             android:name=".OthersQuestionOne"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".EligibalityActivity"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".EmbassyActivity"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".FamillyInfoActivityTwo"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".FamillyInfo"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".EduQuestionActivityFour"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".EduQuestionActivityThree" />
         <activity
             android:name=".EduQuestionActivityThree"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".EduQuestionActivityTwo" />
         <activity
             android:name=".EduQuestionActivityTwo"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".EduQuestionActivityOne" />
         <activity
             android:name=".EduQuestionActivityOne"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".BasicQuestionActivityFour"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".BasicQuestionActivityThree" />
         <activity
             android:name=".BasicQuestionActivityThree"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".BasicQuestionActivityTwo" />
         <activity
             android:name=".BasicQuestionActivityTwo"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".BasicQuestionActivity" />
         <activity
             android:name=".BasicQuestionActivity"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SelfIntroduction"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".PreparationActivity"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashScreen"
+            android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -77,6 +97,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

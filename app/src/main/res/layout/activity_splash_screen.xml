@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:backgroundTint="#FFFFFF"
     android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:backgroundTint="#FFFFFF"
 
-    android:background="#f1f1f1" >
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/logo"
@@ -18,10 +18,10 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:textSize="12dp"
-        android:textColor="#020000"
         android:gravity="center_horizontal"
-        android:text="Japan Embassy Interview Question" />
+        android:text="Japan Embassy Interview Question"
+        android:textColor="#020000"
+        android:textSize="12dp" />
 
 </LinearLayout>
 

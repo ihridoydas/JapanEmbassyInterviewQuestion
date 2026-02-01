@@ -5,13 +5,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
 import hotchemi.android.rate.AppRate;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
         AppRate.with(this)
                 .setInstallDays(1)
                 .setLaunchTimes(3)
@@ -41,16 +42,11 @@ public class MainActivity extends AppCompatActivity {
                 .monitor();
 
 
-
-
-        if(!amIConnected()) buildDialog(MainActivity.this).show();
+        if (!amIConnected()) buildDialog(MainActivity.this).show();
         else {
             setContentView(R.layout.activity_main);
             AppRate.showRateDialogIfMeetsConditions(this);
         }
-
-
-
 
 
         mPreparationBtn = findViewById(R.id.preparationBtn);
@@ -114,7 +110,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
         mFamillyInfoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -165,10 +160,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private boolean amIConnected(){
+    private boolean amIConnected() {
 
-        ConnectivityManager connectivityManager=(ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo =connectivityManager.getActiveNetworkInfo();
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
 
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
@@ -190,7 +185,6 @@ public class MainActivity extends AppCompatActivity {
 
         return builder;
     }
-
 
 
 }
