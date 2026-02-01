@@ -944,7 +944,7 @@
                                 android:id="@+id/q5Text"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text=" にほんにいったらどこにすんでいますか。"
+                                android:text=" にほんにいったらどこにすみますか。"
                                 android:textColor="#FFFFFF"
                                 android:textSize="18sp" />
                         </LinearLayout>
@@ -1035,7 +1035,7 @@
                                 android:id="@+id/ans5Text"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="がっこうのりょうにすんでいます"
+                                android:text="がっこうのりょうにすみます"
                                 android:textColor="#FFFFFF"
                                 android:textSize="18sp" />
                         </LinearLayout>
