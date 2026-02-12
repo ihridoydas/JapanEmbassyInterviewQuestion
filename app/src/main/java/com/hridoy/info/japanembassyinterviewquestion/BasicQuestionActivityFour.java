@@ -2,7 +2,9 @@ package com.hridoy.info.japanembassyinterviewquestion;
 
 import android.content.Intent;
 import android.speech.tts.TextToSpeech;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -12,7 +14,6 @@ import android.widget.TextView;
 import java.util.Locale;
 
 public class BasicQuestionActivityFour extends AppCompatActivity {
-
 
 
     private TextToSpeech mTTS;
@@ -68,15 +69,11 @@ public class BasicQuestionActivityFour extends AppCompatActivity {
     private Button mAns4EnBtn;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("Basic Question Part Four");
         setContentView(R.layout.activity_basic_question_four);
-
-
-
 
 
         mTTS = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
@@ -99,17 +96,14 @@ public class BasicQuestionActivityFour extends AppCompatActivity {
         //Start
 
 
-
-
-        mPreTwoBtn= findViewById(R.id.PreButton);
+        mPreTwoBtn = findViewById(R.id.PreButton);
 
         mPreTwoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
 
-
-                Intent PreIntent = new Intent(BasicQuestionActivityFour.this,BasicQuestionActivityThree.class);
+                Intent PreIntent = new Intent(BasicQuestionActivityFour.this, BasicQuestionActivityThree.class);
 
                 startActivity(PreIntent);
 
@@ -118,54 +112,47 @@ public class BasicQuestionActivityFour extends AppCompatActivity {
 
 
         //1st question
-        mQ1Text=findViewById(R.id.q1Text);
-        mAns1Text=findViewById(R.id.ans1Text);
+        mQ1Text = findViewById(R.id.q1Text);
+        mAns1Text = findViewById(R.id.ans1Text);
 
-        mQ1SayBtn=findViewById(R.id.q1SayBtn);
-        mAns1SayBtn=findViewById(R.id.ans1SayBtn);
+        mQ1SayBtn = findViewById(R.id.q1SayBtn);
+        mAns1SayBtn = findViewById(R.id.ans1SayBtn);
 
-        mQ1EnBtn=findViewById(R.id.q1SayEnBtn);
-        mAns1EnBtn=findViewById(R.id.ans1EnBtn);
+        mQ1EnBtn = findViewById(R.id.q1SayEnBtn);
+        mAns1EnBtn = findViewById(R.id.ans1EnBtn);
 
 
         //2nd question
-        mQ2Text=findViewById(R.id.q2Text);
-        mAns2Text=findViewById(R.id.ans2Text);
+        mQ2Text = findViewById(R.id.q2Text);
+        mAns2Text = findViewById(R.id.ans2Text);
 
-        mQ2SayBtn=findViewById(R.id.q2SayBtn);
-        mAns2SayBtn=findViewById(R.id.ans2SayBtn);
+        mQ2SayBtn = findViewById(R.id.q2SayBtn);
+        mAns2SayBtn = findViewById(R.id.ans2SayBtn);
 
-        mQ2EnBtn=findViewById(R.id.q2SayEnBtn);
-        mAns2EnBtn=findViewById(R.id.ans2EnBtn);
-
-
-
+        mQ2EnBtn = findViewById(R.id.q2SayEnBtn);
+        mAns2EnBtn = findViewById(R.id.ans2EnBtn);
 
 
         //3rd question
-        mQ3Text=findViewById(R.id.q3Text);
-        mAns3Text=findViewById(R.id.ans3Text);
+        mQ3Text = findViewById(R.id.q3Text);
+        mAns3Text = findViewById(R.id.ans3Text);
 
-        mQ3SayBtn=findViewById(R.id.q3SayBtn);
-        mAns3SayBtn=findViewById(R.id.ans3SayBtn);
+        mQ3SayBtn = findViewById(R.id.q3SayBtn);
+        mAns3SayBtn = findViewById(R.id.ans3SayBtn);
 
-        mQ3EnBtn=findViewById(R.id.q3SayEnBtn);
-        mAns3EnBtn=findViewById(R.id.ans3EnBtn);
-
+        mQ3EnBtn = findViewById(R.id.q3SayEnBtn);
+        mAns3EnBtn = findViewById(R.id.ans3EnBtn);
 
 
         //4th question
-        mQ4Text=findViewById(R.id.q4Text);
-        mAns4Text=findViewById(R.id.ans4Text);
+        mQ4Text = findViewById(R.id.q4Text);
+        mAns4Text = findViewById(R.id.ans4Text);
 
-        mQ4SayBtn=findViewById(R.id.q4SayBtn);
-        mAns4SayBtn=findViewById(R.id.ans4SayBtn);
+        mQ4SayBtn = findViewById(R.id.q4SayBtn);
+        mAns4SayBtn = findViewById(R.id.ans4SayBtn);
 
-        mQ4EnBtn=findViewById(R.id.q4SayEnBtn);
-        mAns4EnBtn=findViewById(R.id.ans4EnBtn);
-
-
-
+        mQ4EnBtn = findViewById(R.id.q4SayEnBtn);
+        mAns4EnBtn = findViewById(R.id.ans4EnBtn);
 
 
         //Start 1st Question
@@ -210,9 +197,6 @@ public class BasicQuestionActivityFour extends AppCompatActivity {
         //End 1st Question
 
 
-
-
-
         //Start 2nd Question
 
         mQ2SayBtn.setOnClickListener(new View.OnClickListener() {
@@ -253,7 +237,6 @@ public class BasicQuestionActivityFour extends AppCompatActivity {
         });
 
         //End 2nd Question
-
 
 
         //Start 3rd Question
@@ -298,10 +281,6 @@ public class BasicQuestionActivityFour extends AppCompatActivity {
         //End 3rd Question
 
 
-
-
-
-
         //Start 4th Question
 
         mQ4SayBtn.setOnClickListener(new View.OnClickListener() {
@@ -342,7 +321,6 @@ public class BasicQuestionActivityFour extends AppCompatActivity {
         });
 
         //End 4th Question
-
 
 
     }

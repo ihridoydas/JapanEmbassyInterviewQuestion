@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EligibalityActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="5dp"
@@ -25,27 +25,22 @@
                 android:orientation="horizontal">
 
 
-
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:gravity="center"
                     android:text="Eligibility Paper Information:"
-                    android:textColor="#FFFFFF"
-                    android:textSize="25sp"
                     android:textAlignment="center"
-                    android:gravity="center"/>
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp" />
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-
-
-
+        </androidx.cardview.widget.CardView>
 
 
         <!--Start 1st question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -246,20 +241,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 1st question-->
 
 
-
-
         <!--Start 2nd question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -461,20 +454,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 2nd question-->
 
 
-
-
         <!--Start 3rd question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -675,19 +666,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 3rd question-->
 
 
-
         <!--Start ４ｔｈ question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -888,18 +878,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 4th question-->
 
 
         <!--Start 5ｔｈ question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -1100,19 +1090,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 5th question-->
 
 
-
         <!--Start 6ｔｈ question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -1313,19 +1302,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 6th question-->
 
 
-
         <!--Start 7ｔｈ question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -1526,19 +1514,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 7th question-->
 
 
-
         <!--Start 8ｔｈ question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -1739,18 +1726,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 8th question-->
 
 
         <!--Start 9ｔｈ question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -1951,18 +1938,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 9th question-->
 
 
         <!--Start 10ｔｈ question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -2163,19 +2150,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 10th question-->
 
 
-
         <!--Start 11ｔｈ question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -2376,18 +2362,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 11th question-->
 
 
         <!--Start 12ｔｈ question-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -2588,18 +2574,18 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
 
-                            android:orientation="vertical"/>
+                            android:orientation="vertical" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End 12th question-->
 
 
         <!--Start Next and previous button-->
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -2632,8 +2618,8 @@
                             android:id="@+id/PreButton"
                             android:layout_width="wrap_content"
                             android:layout_height="40dp"
-                            android:layout_marginRight="20dp"
                             android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
                             android:background="@color/colorPrimaryDark"
                             android:text="Previous!"
                             android:textColor="#FFFFFF"
@@ -2644,10 +2630,9 @@
                 </LinearLayout>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--End Next and previous button-->
-
 
 
     </LinearLayout>

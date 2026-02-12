@@ -1,7 +1,9 @@
 package com.hridoy.info.japanembassyinterviewquestion;
 
 import android.speech.tts.TextToSpeech;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -26,12 +28,10 @@ public class PreparationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_preparation);
 
 
+        mPreTextContent = findViewById(R.id.precontent);
 
-        mPreTextContent=findViewById(R.id.precontent);
-
-        mPreSayBtn=findViewById(R.id.presayit);
-        mPreBanSayBtn=findViewById(R.id.prebansayit);
-
+        mPreSayBtn = findViewById(R.id.presayit);
+        mPreBanSayBtn = findViewById(R.id.prebansayit);
 
 
         mTTS = new TextToSpeech(this, new TextToSpeech.OnInitListener() {

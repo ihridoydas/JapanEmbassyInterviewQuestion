@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:backgroundTint="#FFFFFF"
     android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
-    android:background="#f1f1f1" >
-
+    <!-- Image (Japan Flag) fills parent -->
     <ImageView
         android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/jpn_flag" />
+
+    <!-- TextView over image, bottom center -->
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:src="@drawable/jpn" />
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:textSize="12dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:text="Japan Embassy Interview Question"
         android:textColor="#020000"
-        android:gravity="center_horizontal"
-        android:text="Japan Embassy Interview Question" />
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
-</LinearLayout>
-
-
-
+</FrameLayout>

@@ -2,7 +2,9 @@ package com.hridoy.info.japanembassyinterviewquestion;
 
 import android.content.Intent;
 import android.speech.tts.TextToSpeech;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -79,8 +81,6 @@ public class OthersQuestionFour extends AppCompatActivity {
     private Button mAns5EnBtn;
 
 
-
-
     //6th Question
 
     private TextView mQ6Text;
@@ -91,7 +91,6 @@ public class OthersQuestionFour extends AppCompatActivity {
 
     private Button mQ6EnBtn;
     private Button mAns6EnBtn;
-
 
 
     //7th Question
@@ -130,15 +129,12 @@ public class OthersQuestionFour extends AppCompatActivity {
         });
 
 
-
-
-
-        mPreTwoBtn= findViewById(R.id.PreButton);
+        mPreTwoBtn = findViewById(R.id.PreButton);
 
         mPreTwoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PreIntent = new Intent(OthersQuestionFour.this,OthersQuestionThree.class);
+                Intent PreIntent = new Intent(OthersQuestionFour.this, OthersQuestionThree.class);
                 startActivity(PreIntent);
 
 
@@ -146,88 +142,81 @@ public class OthersQuestionFour extends AppCompatActivity {
         });
 
 
-
         //1st question
-        mQ1Text=findViewById(R.id.q1Text);
-        mAns1Text=findViewById(R.id.ans1Text);
+        mQ1Text = findViewById(R.id.q1Text);
+        mAns1Text = findViewById(R.id.ans1Text);
 
-        mQ1SayBtn=findViewById(R.id.q1SayBtn);
-        mAns1SayBtn=findViewById(R.id.ans1SayBtn);
+        mQ1SayBtn = findViewById(R.id.q1SayBtn);
+        mAns1SayBtn = findViewById(R.id.ans1SayBtn);
 
-        mQ1EnBtn=findViewById(R.id.q1SayEnBtn);
-        mAns1EnBtn=findViewById(R.id.ans1EnBtn);
+        mQ1EnBtn = findViewById(R.id.q1SayEnBtn);
+        mAns1EnBtn = findViewById(R.id.ans1EnBtn);
 
 
         //2nd question
-        mQ2Text=findViewById(R.id.q2Text);
-        mAns2Text=findViewById(R.id.ans2Text);
+        mQ2Text = findViewById(R.id.q2Text);
+        mAns2Text = findViewById(R.id.ans2Text);
 
-        mQ2SayBtn=findViewById(R.id.q2SayBtn);
-        mAns2SayBtn=findViewById(R.id.ans2SayBtn);
+        mQ2SayBtn = findViewById(R.id.q2SayBtn);
+        mAns2SayBtn = findViewById(R.id.ans2SayBtn);
 
-        mQ2EnBtn=findViewById(R.id.q2SayEnBtn);
-        mAns2EnBtn=findViewById(R.id.ans2EnBtn);
-
-
-
+        mQ2EnBtn = findViewById(R.id.q2SayEnBtn);
+        mAns2EnBtn = findViewById(R.id.ans2EnBtn);
 
 
         //3rd question
-        mQ3Text=findViewById(R.id.q3Text);
-        mAns3Text=findViewById(R.id.ans3Text);
+        mQ3Text = findViewById(R.id.q3Text);
+        mAns3Text = findViewById(R.id.ans3Text);
 
-        mQ3SayBtn=findViewById(R.id.q3SayBtn);
-        mAns3SayBtn=findViewById(R.id.ans3SayBtn);
+        mQ3SayBtn = findViewById(R.id.q3SayBtn);
+        mAns3SayBtn = findViewById(R.id.ans3SayBtn);
 
-        mQ3EnBtn=findViewById(R.id.q3SayEnBtn);
-        mAns3EnBtn=findViewById(R.id.ans3EnBtn);
-
+        mQ3EnBtn = findViewById(R.id.q3SayEnBtn);
+        mAns3EnBtn = findViewById(R.id.ans3EnBtn);
 
 
         //4th question
-        mQ4Text=findViewById(R.id.q4Text);
-        mAns4Text=findViewById(R.id.ans4Text);
+        mQ4Text = findViewById(R.id.q4Text);
+        mAns4Text = findViewById(R.id.ans4Text);
 
-        mQ4SayBtn=findViewById(R.id.q4SayBtn);
-        mAns4SayBtn=findViewById(R.id.ans4SayBtn);
+        mQ4SayBtn = findViewById(R.id.q4SayBtn);
+        mAns4SayBtn = findViewById(R.id.ans4SayBtn);
 
-        mQ4EnBtn=findViewById(R.id.q4SayEnBtn);
-        mAns4EnBtn=findViewById(R.id.ans4EnBtn);
-
+        mQ4EnBtn = findViewById(R.id.q4SayEnBtn);
+        mAns4EnBtn = findViewById(R.id.ans4EnBtn);
 
 
         //5th question
-        mQ5Text=findViewById(R.id.q5Text);
-        mAns5Text=findViewById(R.id.ans5Text);
+        mQ5Text = findViewById(R.id.q5Text);
+        mAns5Text = findViewById(R.id.ans5Text);
 
-        mQ5SayBtn=findViewById(R.id.q5SayBtn);
-        mAns5SayBtn=findViewById(R.id.ans5SayBtn);
+        mQ5SayBtn = findViewById(R.id.q5SayBtn);
+        mAns5SayBtn = findViewById(R.id.ans5SayBtn);
 
-        mQ5EnBtn=findViewById(R.id.q5SayEnBtn);
-        mAns5EnBtn=findViewById(R.id.ans5EnBtn);
+        mQ5EnBtn = findViewById(R.id.q5SayEnBtn);
+        mAns5EnBtn = findViewById(R.id.ans5EnBtn);
 
 
         //6th question
-        mQ6Text=findViewById(R.id.q6Text);
-        mAns6Text=findViewById(R.id.ans6Text);
+        mQ6Text = findViewById(R.id.q6Text);
+        mAns6Text = findViewById(R.id.ans6Text);
 
-        mQ6SayBtn=findViewById(R.id.q6SayBtn);
-        mAns6SayBtn=findViewById(R.id.ans6SayBtn);
+        mQ6SayBtn = findViewById(R.id.q6SayBtn);
+        mAns6SayBtn = findViewById(R.id.ans6SayBtn);
 
-        mQ6EnBtn=findViewById(R.id.q6SayEnBtn);
-        mAns6EnBtn=findViewById(R.id.ans6EnBtn);
-
+        mQ6EnBtn = findViewById(R.id.q6SayEnBtn);
+        mAns6EnBtn = findViewById(R.id.ans6EnBtn);
 
 
         //7th question
-        mQ7Text=findViewById(R.id.q7Text);
-        mAns7Text=findViewById(R.id.ans7Text);
+        mQ7Text = findViewById(R.id.q7Text);
+        mAns7Text = findViewById(R.id.ans7Text);
 
-        mQ7SayBtn=findViewById(R.id.q7SayBtn);
-        mAns7SayBtn=findViewById(R.id.ans7SayBtn);
+        mQ7SayBtn = findViewById(R.id.q7SayBtn);
+        mAns7SayBtn = findViewById(R.id.ans7SayBtn);
 
-        mQ7EnBtn=findViewById(R.id.q7SayEnBtn);
-        mAns7EnBtn=findViewById(R.id.ans7EnBtn);
+        mQ7EnBtn = findViewById(R.id.q7SayEnBtn);
+        mAns7EnBtn = findViewById(R.id.ans7EnBtn);
 
 
         //Start 1st Question
@@ -272,9 +261,6 @@ public class OthersQuestionFour extends AppCompatActivity {
         //End 1st Question
 
 
-
-
-
         //Start 2nd Question
 
         mQ2SayBtn.setOnClickListener(new View.OnClickListener() {
@@ -315,10 +301,6 @@ public class OthersQuestionFour extends AppCompatActivity {
         });
 
         //End 2nd Question
-
-
-
-
 
 
         //Start 3rd Question
@@ -363,10 +345,6 @@ public class OthersQuestionFour extends AppCompatActivity {
         //End 3rd Question
 
 
-
-
-
-
         //Start 4th Question
 
         mQ4SayBtn.setOnClickListener(new View.OnClickListener() {
@@ -407,10 +385,6 @@ public class OthersQuestionFour extends AppCompatActivity {
         });
 
         //End 4th Question
-
-
-
-
 
 
         //Start 5th Question
@@ -455,10 +429,6 @@ public class OthersQuestionFour extends AppCompatActivity {
         //End 5th Question
 
 
-
-
-
-
         //Start 6th Question
 
         mQ6SayBtn.setOnClickListener(new View.OnClickListener() {
@@ -499,8 +469,6 @@ public class OthersQuestionFour extends AppCompatActivity {
         });
 
         //End 6th Question
-
-
 
 
         //Start 7th Question

@@ -1,7 +1,9 @@
 package com.hridoy.info.japanembassyinterviewquestion;
 
 import android.speech.tts.TextToSpeech;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -22,10 +24,8 @@ public class SelfIntroduction extends AppCompatActivity {
     private Button mPreEnSayBtn;
 
 
-
     private Button mselfInroSayAnsBtn;
     private Button mPreEnSayAnsBtn;
-
 
 
     @Override
@@ -34,19 +34,16 @@ public class SelfIntroduction extends AppCompatActivity {
         setTitle("Self Introduction");
         setContentView(R.layout.activity_self_introduction);
 
-        mSelfIntroText=findViewById(R.id.selfIntroText);
-        mSelfIntroAnsText=findViewById(R.id.SelfIntroAnsText);
+        mSelfIntroText = findViewById(R.id.selfIntroText);
+        mSelfIntroAnsText = findViewById(R.id.SelfIntroAnsText);
 
 
-
-        mselfInroSayBtn=findViewById(R.id.selfIntroBtn);
-        mPreEnSayBtn=findViewById(R.id.selfIntroEnBtn);
-
-
-        mselfInroSayAnsBtn=findViewById(R.id.selfIntroAnsSayBtn);
-        mPreEnSayAnsBtn=findViewById(R.id.selfIntroAnsEnBtn);
+        mselfInroSayBtn = findViewById(R.id.selfIntroBtn);
+        mPreEnSayBtn = findViewById(R.id.selfIntroEnBtn);
 
 
+        mselfInroSayAnsBtn = findViewById(R.id.selfIntroAnsSayBtn);
+        mPreEnSayAnsBtn = findViewById(R.id.selfIntroAnsEnBtn);
 
 
         mTTS = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
@@ -64,11 +61,6 @@ public class SelfIntroduction extends AppCompatActivity {
                 }
             }
         });
-
-
-
-
-
 
 
         mselfInroSayBtn.setOnClickListener(new View.OnClickListener() {
@@ -89,10 +81,6 @@ public class SelfIntroduction extends AppCompatActivity {
         });
 
 
-
-
-
-
         mselfInroSayAnsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -110,7 +98,6 @@ public class SelfIntroduction extends AppCompatActivity {
                 mSelfIntroAnsText.setText(" Nice to meet you .... I am Lido. I'm Bangladeshi.I am from Dhaka. 22 years old. I am a student.My father's name is Bishato. My mother's name is puspa. I Like to look at football. I studied Japanese in 6 months. I would like to go to Japan because I would like to study at a university in Japan.");
             }
         });
-
 
 
     }
